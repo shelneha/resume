@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="profile">
+                <img src="profile.jpg" alt="Profile Photo" class="profile-img">
+                <h1>Neha Prakash Shelke</h1>
+                <p>Junior Developer | MERN Stack Enthusiast</p>
+            </div>
+        </header>
+
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <ul>
+                <li>Email: neha.shelke@example.com</li>
+                <li>Phone: +91 9876543210</li>
+                <li>LinkedIn: <a href="https://linkedin.com/in/nehashelke" target="_blank">linkedin.com/in/nehashelke</a></li>
+                <li>GitHub: <a href="https://github.com/shelneha" target="_blank">github.com/shelneha</a></li>
+            </ul>
+        </section>
+
+        <section id="summary">
+            <h2>Summary</h2>
+            <p>I am a Junior Developer with experience in web development, specializing in the MERN stack. I am passionate about building user-friendly and responsive applications. I have a strong foundation in Java, Python, and web technologies, and I am eager to contribute to innovative projects.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>React.js, Node.js, MongoDB, Express.js</li>
+                <li>Java, Python</li>
+                <li>Git, GitHub</li>
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <h3>Intern - Hindustan Aeronautics Ltd.</h3>
+            <p>Developed a fingerprint recognition system using Python. Implemented OTP verification for enhanced security.</p>
+
+            <h3>Final Year Project - MERN Stack Web Application</h3>
+            <p>Worked on a full-stack web application using the MERN stack. Developed features for user authentication and data visualization.</p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <h3>Sinhgad Institute of Technology, Lonavala</h3>
+            <p>Bachelor of Engineering, Computer Engineering</p>
+        </section>
+
+        <section id="contact-form">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+            <div id="formResponse"></div>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Neha Prakash Shelke</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
